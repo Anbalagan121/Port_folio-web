@@ -1,9 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  base: '/Anbu-portfolio/', // ✅ Must have leading and trailing slash
-})
+  base: '/Anbu-portfolio/', // ✅ Required for GitHub Pages
+  plugins: [react()],
+});

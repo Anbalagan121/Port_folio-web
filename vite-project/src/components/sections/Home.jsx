@@ -33,7 +33,8 @@ export const Home = () => {
                                 Contact Me
                             </a>
                             <a
-                                href="/resume.pdf"
+                                href="vite-project/public/resume.pdf
+"
                                 download
                                 className="bg-green-500 text-white py-3 px-6 rounded-lg font-medium transition transform hover:-translate-y-1 hover:shadow-lg"
                             >
@@ -45,8 +46,10 @@ export const Home = () => {
                     {/* Image Section */}
                     <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
                         <div className="w-52 h-52 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
+                            {/* Image path */}
                             <img
-                                src="/profile.png"
+                                src="vite-project/public/profile.png
+"  // Corrected image path for public folder
                                 alt="Anbu Tech"
                                 className="w-full h-full object-cover"
                             />
